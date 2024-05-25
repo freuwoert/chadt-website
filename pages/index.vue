@@ -11,7 +11,7 @@
             </HeFlex>
         </HeLimiter>
         <template #background>
-            <img class="h-full w-full absolute inset-0 object-cover" src="/images/hero.jpg">
+            <img class="h-full w-full absolute inset-0 object-cover" src="/images/hero.jpg" alt="verlassene und überwucherte Tankstelle im Sommer">
             <div class="h-full w-full absolute inset-0 bg-zinc-900 opacity-70"></div>
         </template>
     </HeSection>
@@ -23,7 +23,7 @@
             <HeFlex padding="6rem 0" gap="4rem">
                 <HeFlex horizontal gap="2rem 4rem" breakpoint="768">
                     <div class="flex-1">
-                        <img loading="lazy" src="/images/about.jpg" class="flex-1 rounded-xl aspect-video"/>
+                        <img loading="lazy" src="/images/about.jpg" class="flex-1 rounded-xl aspect-video" alt="Schwarz-Weiß Bild von diversen Personen mit farbigen KI-Objekterkennungskästen"/>
                     </div>
                     <div class="flex-1">
                         <h2 class="m-0 text-lime-400 text-5xl leading-snug font-semibold">Über CHADT</h2>
@@ -48,6 +48,7 @@
             <HeFlex padding="6rem 0" gap="4rem">
                 <HeFlex horizontal gap="2rem 4rem" breakpoint="768" reversed>
                     <iframe
+                        title="Google Maps Karte vom Gummibahnhof 9 in Salzgitter"
                         class="flex-1 aspect-video rounded-xl grayscale"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d363.94878376349305!2d10.414229456996376!3d52.14622035827743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a55a31f9578ebf%3A0xc4100315ba66210e!2sAm%20Gummibahnhof%209%2C%2038239%20Salzgitter!5e0!3m2!1sen!2sde!4v1716217824966!5m2!1sen!2sde"
                         allowfullscreen
@@ -90,7 +91,7 @@
             <HeFlex padding="6rem 0" gap="4rem">
                 <HeFlex horizontal gap="2rem 4rem" breakpoint="768">
                     <div class="flex-1">
-                        <img loading="lazy" src="/images/fee.jpg" class="flex-1 rounded-xl aspect-video"/>
+                        <img loading="lazy" src="/images/fee.jpg" class="flex-1 rounded-xl aspect-video" alt="Schwarz-Weiß Bild von einer Tankstelle mit KI-Objekterkennungskästen um diverse Objekte"/>
                     </div>
                     <div class="flex-1">
                         <h2 class="m-0 text-lime-400 text-5xl leading-snug font-semibold">Eintritt</h2>

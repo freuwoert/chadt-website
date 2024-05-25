@@ -26,6 +26,11 @@
 </template>
 
 <script lang="ts" setup>
+    useHead({
+        htmlAttrs: {
+            lang: 'de',
+        }
+    })
     const menu = ref([
         { id: 'home', label: 'Home', href: '/' },
         { id: 'about', label: 'Über CHADT', href: '/#about' },
