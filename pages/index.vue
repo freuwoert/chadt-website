@@ -2,7 +2,7 @@
     <HeSection id="home" class="border-b border-b-zinc-800">
         <HeLimiter>
             <HeFlex class="hero" align-x="center">
-                <h1 class="m-0 text-center text-lime-400 text-4xl leading-snug md:text-6xl md:leading-snug font-semibold">Chilln' auf der Tanke</h1>
+                <h1 class="m-0 text-center text-lime-400 text-4xl leading-snug md:text-6xl md:leading-snug font-semibold">Chilln auf der Tanke</h1>
                 <h1 class="m-0 mb-12 text-center text-lime-200 text-2xl leading-normal md:text-4xl md:leading-normal font-normal">Catered Rave im Lost Place</h1>
                 <HeFlex horizontal gap="1rem" breakpoint="768" class="min-w-72">
                     <IodButton is="a" size="l" corner="pill" border variant="contained" label="Sei jetzt dabei" background="var(--bg-lime-400)" target="_blank" href="https://calendar.app.google/XmvWRP3xdMFNfaKJ6"/>
@@ -23,17 +23,17 @@
             <HeFlex padding="6rem 0" gap="4rem">
                 <HeFlex horizontal gap="2rem 4rem" breakpoint="768">
                     <div class="flex-1">
-                        <img src="/images/about.jpg" class="flex-1 rounded-xl aspect-video"/>
+                        <img loading="lazy" src="/images/about.jpg" class="flex-1 rounded-xl aspect-video"/>
                     </div>
                     <div class="flex-1">
                         <h2 class="m-0 text-lime-400 text-5xl leading-snug font-semibold">Über CHADT</h2>
-                        <h3 class="m-0 mb-6 text-lime-200 text-2xl leading-snug font-normal italic">Was is Chilln' auf der Tanke überhaupt?</h3>
+                        <h3 class="m-0 mb-6 text-lime-200 text-2xl leading-snug font-normal italic">Was is Chilln auf der Tanke überhaupt?</h3>
                         <p class="mb-4">
                             Was als kleine Geburtstagsfeier in einem Lost Place bei Salzgitter angefangen hat, hat sich schnell zu einem Outdoor Rave samt Catering weiterentwickelt.
-                            Mit Chilln' auf der Tanke möchte ich die entspannten Summer Vibes eines Gartenfests mit dem Kick von Lost Places kombinieren.
+                            Mit Chilln auf der Tanke möchte ich die entspannten Summer Vibes eines Gartenfests mit dem Kick von Lost Places kombinieren.
                         </p>
                         <p class="mb-4">
-                            Egal ob Turn Up oder Chill Out, die einzigartige Location hat Chilln' auf der Tanke schon letztes Jahr zu einem unvergesslichen Erlebnis gemacht.
+                            Egal ob Turn Up oder Chill Out, die einzigartige Location hat Chilln auf der Tanke schon letztes Jahr zu einem unvergesslichen Erlebnis gemacht.
                         </p>
                     </div>
                 </HeFlex>
@@ -73,7 +73,7 @@
                         </HeFlex>
                         <HeDivider class="my-4"/>
                         <p class="mb-8">
-                            Da die Location mit ÖPNV nicht all zu gut zu erreichen ist, empfehlen wir Fahrgemeinschaften. Parkplätze sind ausreichend vorhanden.
+                            Da die Location mit ÖPNV teils nicht all zu gut zu erreichen ist, empfehle ich Fahrgemeinschaften. Parkplätze sind ausreichend vorhanden.
                             Fragt mich auch gerne persönlich, wenn ihr eine Mitfahrgelegenheit sucht.
                         </p>
                         <IodButton is="a" size="l" label="Sei jetzt dabei" href="https://calendar.app.google/XmvWRP3xdMFNfaKJ6" target="_blank" corner="pill" background="var(--bg-lime-400)"/>
@@ -90,7 +90,7 @@
             <HeFlex padding="6rem 0" gap="4rem">
                 <HeFlex horizontal gap="2rem 4rem" breakpoint="768">
                     <div class="flex-1">
-                        <img src="/images/fee.jpg" class="flex-1 rounded-xl aspect-video"/>
+                        <img loading="lazy" src="/images/fee.jpg" class="flex-1 rounded-xl aspect-video"/>
                     </div>
                     <div class="flex-1">
                         <h2 class="m-0 text-lime-400 text-5xl leading-snug font-semibold">Eintritt</h2>
@@ -129,6 +129,11 @@
                         Da ich euch alle mit Catering und Getränken versorgen möchte, ist ein kleines, geldliches <b>Geburtstagsgeschenk (15-20€)</b> aber immer gerne gesehen.
                     </p>
                 </IodAccordion>
+                <IodAccordion title="Darf ich eine*n +1 mitbringen" class="rounded-xl mb-2">
+                    <p class="px-4 pb-4">
+                        Gerne dürft ihr Begleitung mitbringen. Bitte gebt der Person aber den Link zu dieser Seite und lasst sie sich anmelden, damit ich besser planen kann.
+                    </p>
+                </IodAccordion>
                 <IodAccordion title="Gibt es eine Toilette?" class="rounded-xl mb-2">
                     <p class="px-4 pb-4">
                         <b>Leider nein!</b>
@@ -139,7 +144,7 @@
                 </IodAccordion>
                 <IodAccordion title="Wie siehts mit Parkplätzen aus?" class="rounded-xl mb-2">
                     <p class="px-4 pb-4">
-                        Parkplätze sind ausreichend vorhanden. Da die Location mit ÖPNV nicht all zu gut zu erreichen ist, empfehlen wir Fahrgemeinschaften.
+                        Parkplätze sind ausreichend vorhanden. Da die Location mit ÖPNV teils nicht all zu gut zu erreichen ist, empfehle ich Fahrgemeinschaften.
                         Fragt mich auch gerne persönlich, wenn ihr eine Mitfahrgelegenheit sucht.
                     </p>
                 </IodAccordion>
@@ -150,8 +155,8 @@
                 </IodAccordion>
                 <IodAccordion title="Was ist, wenn es regnet?" class="rounded-xl mb-2">
                     <p class="px-4 pb-4">
-                        Da Chilln' auf der Tanke ein Outdoor-Event ist, kann es bei schlechtem Wetter auch mal ins Wasser fallen.
-                        Ich versuche jedoch ein Pavillon zu organisieren für alle Fälle.
+                        Da Chilln auf der Tanke ein Outdoor-Event ist, kann es bei schlechtem Wetter auch mal ins Wasser fallen.
+                        Ich versuche jedoch einen Pavillon für alle Fälle zu organisieren.
                     </p>
                 </IodAccordion>
             </HeFlex>
