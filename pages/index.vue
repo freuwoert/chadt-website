@@ -3,7 +3,7 @@
         <HeLimiter>
             <HeFlex class="hero" align-x="center">
                 <h1 class="m-0 text-center text-lime-400 text-4xl leading-snug md:text-6xl md:leading-snug font-semibold">Chilln auf der Tanke</h1>
-                <h1 class="m-0 mb-12 text-center text-lime-200 text-2xl leading-normal md:text-4xl md:leading-normal font-normal">Catered Rave im Lost Place</h1>
+                <h1 class="m-0 mb-12 text-center text-lime-200 text-2xl leading-normal md:text-4xl md:leading-normal font-normal">Geburtstagsparty im Lost Place</h1>
                 <HeFlex horizontal gap="1rem" breakpoint="768" class="min-w-72">
                     <IodButton is="a" size="l" corner="pill" border variant="contained" label="Sei jetzt dabei" background="var(--bg-lime-400)" target="_blank" href="https://calendar.app.google/XmvWRP3xdMFNfaKJ6"/>
                     <IodButton is="a" size="l" corner="pill" border variant="contained" label="Mehr erfahren" background="var(--bg-lime-200)" href="/#about"/>
@@ -29,7 +29,7 @@
                         <h2 class="m-0 text-lime-400 text-5xl leading-snug font-semibold">Über CHADT</h2>
                         <h3 class="m-0 mb-6 text-lime-200 text-2xl leading-snug font-normal italic">Was is Chilln auf der Tanke überhaupt?</h3>
                         <p class="mb-4">
-                            Was als kleine Geburtstagsfeier in einem Lost Place bei Salzgitter angefangen hat, hat sich schnell zu einem Outdoor Rave samt Catering weiterentwickelt.
+                            Was als kleine Geburtstagsfeier in einem Lost Place bei Salzgitter angefangen hat, hat sich schnell zu einer (privaten) Outdoor-Party samt Catering weiterentwickelt.
                             Mit Chilln auf der Tanke möchte ich die entspannten Summer Vibes eines Gartenfests mit dem Kick von Lost Places kombinieren.
                         </p>
                         <p class="mb-4">
@@ -135,6 +135,11 @@
                         Gerne dürft ihr Begleitung mitbringen. Bitte gebt der Person aber den Link zu dieser Seite und lasst sie sich anmelden, damit ich besser planen kann.
                     </p>
                 </IodAccordion>
+                <IodAccordion title="Ist die Party privat?" class="rounded-xl mb-2">
+                    <p class="px-4 pb-4">
+                        Ja, CHADT ist eine private Geburtstagsfeier. Während wir das Gelände natürlich nicht absperren können, werden wir unbekannte Personen ansprechen und bitten zu gehen.
+                    </p>
+                </IodAccordion>
                 <IodAccordion title="Gibt es eine Toilette?" class="rounded-xl mb-2">
                     <p class="px-4 pb-4">
                         <b>Leider nein!</b>
@@ -168,7 +173,7 @@
 <script lang="ts" setup>
     useSeoMeta({
         title: 'Chilln auf der Tanke',
-        description: 'Catered Rave im Lost Place',
+        description: 'Catered Geburtstagsparty im Lost Place',
     })
 </script>
 
