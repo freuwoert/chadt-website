@@ -62,7 +62,7 @@
                         <HeFlex horizontal gap="1rem">
                             <IodIcon class="text-lime-200" icon="today"/>
                             <p>
-                                Datum: <b>Samstag, 06. Juli 2024</b> ab ca. <b>15:00 Uhr</b>
+                                Datum: <b>Samstag, 06. Juli 2024</b> ab ca. <b>17:00 Uhr</b>
                             </p>
                         </HeFlex>
                         <HeDivider class="my-4"/>
